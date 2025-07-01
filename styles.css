@@ -2,7 +2,13 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.red{
+    color: rgb(253, 72, 72);
 }
 
 a{
@@ -78,4 +84,84 @@ body{
     padding: 15px 35px;
     background-color: #1e2024,;
     
+}
+
+.centre{
+    display: flex;
+    margin: 0 15%;
+    align-items: center;
+    
+    
+}
+
+.centre .gauche h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.centre .gauche p{
+    color: #b5bac2;
+}
+
+.espace{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    
+}
+
+.espace img{
+    background-color: #1e2024;
+    padding: 1.5rem;
+    width: 2rem;
+    box-shadow: 5px 5px 19px #262a2e
+}
+
+.reseaux{
+    width: fit-content;
+}
+
+
+.espace .reseaux a{
+    margin: 0 10px 0 0;
+}
+
+
+
+.espace .skills a{
+    margin: 0 10px 0 0;
+    
+}
+
+.droite{
+    margin: 0 0 0 20%
+}
+.droite img{
+    width: 100%;
+    background-color: #212428;
+    box-shadow: 10px 10px 10px #262a2e,-10px -10px 10px #262a2e
+}
+
+
+@media screen and (max-width: 1000px) {
+    .nav{
+        margin: 0%;
+    }
+
+    .centre{
+        margin: 10% 0%;
+    }
+
+    .gauche{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .centre .droite{
+        display: none;
+        
+    }
 }
