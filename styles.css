@@ -92,6 +92,7 @@ body{
     align-items: center;
     
     
+    
 }
 
 .centre .gauche h1{
@@ -139,7 +140,102 @@ body{
 .droite img{
     width: 100%;
     background-color: #212428;
-    box-shadow: 2px 5px 10px black,-10px -10px 10px #262a2e
+    box-shadow: 2px 5px 10px black,-10px -10px 10px #262a2e;
+}
+
+
+.what{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0%;
+}
+
+.what h2{
+    color: #C4CFDE;
+    font-size: 4rem;
+}
+
+.haut{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    color: #C4CFDE;
+    flex-wrap: wrap;
+}
+
+.haut div{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.haut img{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+.titre{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.haut p{
+    font-weight: 400;
+}
+
+.ha1,.ha2,.ha3{
+    flex-wrap: wrap;
+    height: 20rem;
+    flex-wrap: wrap;
+    width: 20rem;
+    padding: 2rem;
+    box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
+    justify-content: center;
+}
+
+
+.bas{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    color: #C4CFDE;
+    flex-wrap: wrap;
+}
+
+.bas div{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.bas img{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+.titre{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.bas p{
+    font-weight: 400;
+}
+
+.ba1,.ba2,.ba3{
+    flex-wrap: wrap;
+    height: 20rem;
+    flex-wrap: wrap;
+    width: 20rem;
+    padding: 2rem;
+    box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
+    justify-content: center;
 }
 
 
@@ -157,6 +253,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         gap: 5rem;
     }
 
