@@ -191,7 +191,7 @@ body{
     flex-wrap: wrap;
     height: 20rem;
     flex-wrap: wrap;
-    width: 20rem;
+    width: 21rem;
     padding: 2rem;
     box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
     justify-content: center;
@@ -232,11 +232,76 @@ body{
     flex-wrap: wrap;
     height: 20rem;
     flex-wrap: wrap;
-    width: 20rem;
+    width: 21rem;
     padding: 2rem;
     box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
     justify-content: center;
 }
+
+
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carre{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carre .droit{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.carre .droit .grid{
+     flex-wrap: wrap;
+    height: 20rem;
+    flex-wrap: wrap;
+    width: 21rem;
+    padding: 2rem;
+    box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.grid p{
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+.grid a{
+    color: #C4CFDE;
+   
+}
+
+.visit{
+    margin-top: 8rem;
+    
+    text-align: center;
+}
+
+.visit h3{
+    color: #C4CFDE;
+    font-size: 5rem;
+}
+
+.page div{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -260,5 +325,21 @@ body{
     .centre .droite{
         display: none;
         
+    }
+
+   
+    
+
+    .grid{
+        text-align: center;
+    }
+
+    .grid img{
+        width: fit-content;
+    }
+    
+
+    .droit{
+        justify-content: center;
     }
 }
